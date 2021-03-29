@@ -64,10 +64,9 @@ function bondJSON(data){
 //JSON processing data goes here
 	//toConsole(data);
 	//$("#output").text(JSON.stringify(data));
-	$.each(data.films,function(i,item,){
+	$.each(data.films,function(i,item){
 
 		let text = `
-		
 				<b>Title</b>: ${item.Title}<br />
 				<b>Film #</b>: ${item.Film}<br />
 				<b>Year</b>: ${item.Year}<br />
